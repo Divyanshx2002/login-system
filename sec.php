@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Log in</title>
     <link rel="stylesheet" href="sec.css">
-    <script defer src="script.js"></script>
+    <script defer src="sec.js"></script>
 </head>
 <body>
     <div id="form2">
         <h1>Log In</h1>
-        <form id="f22" name="f2"  action="" method="POST">
+        <span id="errorMessage2"></span>
+        <form id="f22" name="f2"  action="get-data.php" method="POST">
             <p>
                 <label>Username</label>
                 <input type="text" id="user2" name="username" />
@@ -22,7 +23,7 @@
             </p>
             <p>
                 <button id="btn3">Log In</button>
-                <a class="sec111" href="index.html">Sign Up</a>
+                <a class="sec111" href="index.php">Sign Up</a>
             </p>
         </form>
 </body>

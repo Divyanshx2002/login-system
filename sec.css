@@ -5,7 +5,6 @@ body {
 #form2 {
     border: solid gray 1px;
     width: 25%;
-    border-radius: 2px;
     margin: 120px auto;
     background: white;
     padding: 50px;
@@ -15,17 +14,12 @@ body {
     color: #fff;
     background: #337ab7;
     padding: 7px;
-    margin-left: 70%;
 }
 
 .sec111 {
+    color: #fff;
+    background: #337ab7;
+    padding: 6px;
     text-decoration: none;
-    position: absolute;
-    top: 33.70%;
-    left: 59%;
     border: 2px solid black;
-    padding: 5px;
-    transform: translate(-5px, -2px);
-    color: white;
-    background-color: #337ab7;
 }
